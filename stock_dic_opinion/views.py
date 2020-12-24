@@ -7,7 +7,7 @@ import os
 
 from django.http import HttpResponse
 from django.template import loader
-from pyecharts import Line3D
+from pyecharts.charts import Line3D
 
 
 REMOTE_HOST = "https://pyecharts.github.io/assets/js"
